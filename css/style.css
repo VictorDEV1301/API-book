@@ -1,0 +1,78 @@
+:root{
+  --primary-dark-color: #222;
+  --primary-ligth-color: #e5e5e5;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #000;
+}
+
+body{
+  background-color: var(--primary-dark-color);
+}
+
+.header-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+  position: relative;
+  padding: 20px;
+}
+
+#searchBook{
+  padding: 10px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+#searchButton{
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 40px;
+}
+
+main{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+main img{
+  width: 170px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+
+.descricao{
+  color: var(--primary-ligth-color);
+  max-width: 700px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.headerText{
+  color: var(--primary-ligth-color);
+  border-bottom: 5px solid var(--primary-ligth-color);
+}
